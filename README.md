@@ -1,7 +1,7 @@
 # Introduction
 Parallel and orthogonalized partial least squares (PO-PLS) multiblock regression was used in order to investigate associations between a comprehensive cognitive reserve proxy and functional connectivity of the prefrontal cortex across the whole scalp, covarying for the level of current cognitive functioning.
 
-This repository provides the code for our investigation of the associations between EEG functional brain connectivity and a cognitive reserve proxy in healthy older adults [bioRxiv](http://https://www.biorxiv.org/content/10.1101/625608v1.abstract).
+This repository provides the code for our investigation of the associations between EEG functional brain connectivity and a cognitive reserve proxy in healthy older adults [bioRxiv manuscript](http://https://www.biorxiv.org/content/10.1101/625608v1.abstract).
 
 # Code
 For PO-PLS analysis we used the Nofima multiblock regression by PO-PLS MATLAB toolbox (Naes et al. 2013). A threshold of 0.3 was used for regression coefficients to include in the PO-PLS model. We computed percentage explained variance in LEQ uniquely by the functional connectivity. In each PO-PLS model, we identified clusters of electrodes with at least three adjacent electrodes in space with regression coefficients above threshold. 
